@@ -1,0 +1,26 @@
+// 以bootstrap5的xxl和iPad以下(767px)為斷點
+$desktop-width: 1200px;
+$pad-width: 992px;
+$mobile-width: 767px;
+// 容器
+$container-lg: 1140px;
+$container-md: 720px;
+$container-sm: 540px;
+// 背景主色--針對這次的設計稿
+$gray-1: #2D2D2D;
+$gray-2: #1C1C1C;
+$gray-3: #1A1A1A;
+// 漢堡選單
+$ham-icon-bar-primary: $success;
+$ham-icon-bg-primary: $gray-1;
+$ham-menu-border-primary: $white;
+$ham-menu-bg-primary: $gray-1;
+
+// // footer
+// $footer-icon-primary: #ECEDED;
+// $footer-icon-primary--hover: gray;
+// // pages
+// $pages-link-primary: #000;
+// $pages-link-primary--hover: gray;
+// $section-bg-primary: #dfe6ed;
+// $section-bg-secondary: #fbe192;

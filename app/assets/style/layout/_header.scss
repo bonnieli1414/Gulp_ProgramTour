@@ -1,0 +1,18 @@
+header {
+    position: sticky;
+    .logo {
+        width: 174px;
+        height: 42px;
+        @include mobile {
+            width: 24px;
+            height: 24px;
+        }
+    }
+    .navbar-decoration {
+        height: 2pt;
+        background-image: linear-gradient(104deg, $success, $info);
+    }
+    @media screen and (max-width: $pad-width) {
+        @include ham-menu-twoBar;
+    }
+}

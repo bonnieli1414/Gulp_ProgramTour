@@ -1,16 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
 
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%- title %></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <!-- google fonts的 Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
-  <body>
+  <body class="text-white">
+    <header class="bg-gray-1">
+      <div class="position-relative">
+        <div class="container d-flex justify-content-between align-items-center">
+          <a class="py-6" href="./index.html">
+            <img class="logo d-none d-md-block" src="./assets/images/logo.svg" alt="Coding Home Logo">
+            <img class="logo d-md-none" src="./assets/images/logo2.svg" alt="Coding Home Logo">
+          </a>
+          <input id="nav-toggle" class="ham-toggle d-none" type="checkbox">
+          <label for="nav-toggle" class="ham-menu">
+            <div class="ham-frame">
+              <div class="ham-bar ham-bar--top"></div>
+              <div class="ham-bar ham-bar--middle"></div>
+              <div class="ham-bar ham-bar--bottom"></div>
+            </div>
+          </label>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link px-5 py-6" aria-current="page" href="#">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-5 py-6" href="#">課程介紹</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ps-5 py-6 d-flex justify-content-center align-items-center" href="#">
+                <span class="material-icons">
+                  account_circle
+                </span>
+                登入
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-decoration"></div>
+      </div>
+    </header>
 
 
     <%- contents %>

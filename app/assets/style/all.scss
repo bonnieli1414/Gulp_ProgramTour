@@ -1,6 +1,19 @@
+// Vender
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
+// Configuration & Component
+@import "./config/variables";
+@import "./config/mixins";
 
-@import './layout/index.scss'
+// Global
+@import "./layout/meyerweb";
+@import "./layout/base";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/root";
+
+// Pages
+@import "./pages/index";
+
