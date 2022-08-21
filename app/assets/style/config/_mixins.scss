@@ -151,11 +151,9 @@
 }
 // 製作 banner
 @mixin banner {
-    // background-image: url("../image/index_Sutron.jpg");
+    background-image: url("../../../assets/images/bg_home.jpg");
     // background讓背景圖片隨著螢幕大小自適應
-    // max-width: 100%;
-    // 以圖片的寬除以長度計算比例
-    // padding-top: 448px / 1052px * 130%;
+    height: 680px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -182,4 +180,14 @@
 // 由h1標籤引入image-replaces-text
 // h1 {
 //     @include image-replaces-text;
+// }
+// 讓文字呈現漸層效果
+@mixin text-linear-gradient {
+    color: transparent;
+    background-image: linear-gradient(180deg, $info, $success);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+// .text-linear-gradient {
+//     @include text-linear-gradient;
 // }

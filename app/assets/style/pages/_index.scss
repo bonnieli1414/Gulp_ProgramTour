@@ -1,0 +1,24 @@
+.index {
+    .banner {
+        @include banner;
+    }
+    .text-linear-gradient {
+        @include text-linear-gradient;
+    }
+    .square {
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+    }
+    .card {
+        max-width: 306px;
+        margin: 0 auto;
+        height: 264px;
+    }
+    .fs-50 {
+        font-size: 50px;
+    }
+    .text-md-start {
+        text-align: left;
+    }
+}

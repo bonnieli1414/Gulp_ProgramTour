@@ -13,4 +13,128 @@ body {
 .text-gray-4 {
     color: $gray-4;
 }
-
+h1 {
+    font-size: 48px;
+    line-height: 70px;
+    font-weight: 700;
+    @include pad {
+        font-size: 48px * 0.8;
+        line-height: 70px * 0.8;
+    }
+}
+h2 {
+    font-size: 32px;
+    line-height: 37px;
+    font-weight: 700;
+    @include pad {
+        font-size: 32px * 0.8;
+        line-height: 37px * 0.8;
+    }
+}
+h3 {
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 700;
+    @include pad {
+        font-size: 28px * 0.8;
+        line-height: 40px * 0.8;
+    }
+}
+h4 {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 700;
+    @include pad {
+        font-size: 24px * 0.8;
+        line-height: 35px * 0.8;
+    }
+}
+h5 {
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 700;
+    @include pad {
+        font-size: 20px * 0.8;
+        line-height: 29px * 0.8;
+    }
+}
+h6 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    @include pad {
+        font-size: 18px * 0.8;
+        line-height: 26px * 0.8;
+    }
+}
+.fs-6 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.fs-bold {
+    font-weight: 700;
+}
+.fs-regular {
+    font-weight: 400;
+}
+.sm-h1 {
+    @include mobile {
+        font-size: 32px;
+        line-height: 37px;
+        font-weight: 700;
+    }
+}
+.sm-h2 {
+    @include mobile {
+        font-size: 24px;
+        line-height: 35px;
+        font-weight: 700;
+    }
+}
+.sm-h3 {
+    @include mobile {
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 700;
+    }
+}
+.sm-h4 {
+    @include mobile {
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 700;
+    }
+}
+.sm-h5 {
+    @include mobile {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+}
+.sm-fs5-1 {
+    @include mobile {
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400;
+    }
+}
+.sm-fs5-2 {
+    @include mobile {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+}
+.sm-fs6 {
+    @include mobile {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+}
+.py-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
