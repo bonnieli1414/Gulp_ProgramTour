@@ -22,6 +22,11 @@ h1 {
         line-height: 70px * 0.8;
     }
 }
+.h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+}
 h2 {
     font-size: 32px;
     line-height: 37px;
@@ -137,4 +142,7 @@ h6 {
 .py-80 {
     padding-top: 80px;
     padding-bottom: 80px;
+}
+.pt-80 {
+    padding-top: 80px;
 }
