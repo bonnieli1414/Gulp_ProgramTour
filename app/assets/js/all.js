@@ -1,3 +1,4 @@
+// AOS套件
 AOS.init({
   // Global settings:
   disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
@@ -19,3 +20,23 @@ AOS.init({
   mirror: false, // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 });
+// swiper套件
+const swiper = new Swiper(".renderSwiper", {
+  // 每個視圖的幻燈片數
+  slidesPerView: "auto",
+  // 移動幻燈片之間的距離
+  // 與margin的css屬性衝突
+  spaceBetween: 1,
+  // 當滑鼠懸停在 Swiper 上時，
+  // 將顯示"抓取"光標
+  grabCursor: true,
+  // 分頁 
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+
+
+
+

@@ -151,7 +151,7 @@
 }
 // 製作 banner
 @mixin banner {
-    background-image: url("../../../assets/images/bg_home.jpg");
+    // background-image: url("../../../assets/images/bg_home.jpg");
     // background讓背景圖片隨著螢幕大小自適應
     height: 680px;
     background-size: cover;
