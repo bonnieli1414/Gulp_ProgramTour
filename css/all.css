@@ -14971,6 +14971,12 @@ body {
   color: #909090;
 }
 
+@media screen and (max-width: 767px) {
+  .bg-sm-gray-5 {
+    background-color: #202020;
+  }
+}
+
 h1, .h1 {
   font-size: 48px;
   line-height: 70px;
@@ -15049,10 +15055,19 @@ h6, .h6 {
   }
 }
 
+.fs-50 {
+  font-size: 50px;
+}
+
 .fs-6 {
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
+}
+
+.p {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .fs-bold {
@@ -15136,12 +15151,48 @@ h6, .h6 {
   padding-top: 80px;
 }
 
+.border-md-bottom {
+  border-bottom: 1px solid #000;
+}
+@media screen and (max-width: 767px) {
+  .border-md-bottom {
+    border-bottom: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .border-sm-bottom {
+    border-bottom: 1px solid #000;
+  }
+}
+
+.rounded-top-24 {
+  border-radius: 24px 24px 0 0;
+}
+
+.rounded-bottom-24 {
+  border-radius: 0 0 24px 24px;
+}
+
+.text-md-start {
+  text-align: left;
+}
+
+.mb-500 {
+  padding-bottom: 500px;
+}
+
 .index .banner {
   background-image: url("../../../assets/images/bg_home.jpg");
   height: 680px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px) {
+  .index .banner {
+    background-image: url("../../../assets/images/bg_home_mobile.jpg");
+  }
 }
 .index .text-linear-gradient {
   color: transparent;
@@ -15154,11 +15205,6 @@ h6, .h6 {
   height: 10px;
   background-color: #fff;
 }
-.index .card {
-  max-width: 306px;
-  margin: 0 auto;
-  height: 264px;
-}
 .index .card-number {
   font-family: "Azeret Mono";
   position: absolute;
@@ -15167,12 +15213,110 @@ h6, .h6 {
   transform: translateY(-50%);
   padding: 0 8px;
 }
-.index .fs-50 {
-  font-size: 50px;
+.index .btn-liner {
+  width: 172px;
+  height: 42px;
+  background-image: linear-gradient(104deg, #62DB54, #09ACF5);
 }
-.index .text-md-start {
-  text-align: left;
+.index .banner-1 {
+  background-image: url("../../../assets/images/info01.jpg");
+  height: 680px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 615px;
 }
-.index .mb-500 {
-  padding-bottom: 500px;
+@media screen and (max-width: 992px) {
+  .index .banner-1 {
+    height: 430px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .index .banner-1 {
+    height: 263px;
+  }
+}
+.index .banner-2 {
+  background-image: url("../../../assets/images/info02.jpg");
+  height: 680px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 615px;
+}
+@media screen and (max-width: 992px) {
+  .index .banner-2 {
+    height: 430px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .index .banner-2 {
+    height: 263px;
+  }
+}
+.index .banner-3 {
+  background-image: url("../../../assets/images/info03.jpg");
+  height: 680px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 615px;
+}
+@media screen and (max-width: 992px) {
+  .index .banner-3 {
+    height: 430px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .index .banner-3 {
+    height: 263px;
+  }
+}
+.index .banner-4 {
+  background-image: url("../../../assets/images/info04.jpg");
+  height: 680px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 615px;
+}
+@media screen and (max-width: 992px) {
+  .index .banner-4 {
+    height: 430px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .index .banner-4 {
+    height: 263px;
+  }
+}
+.index .brightness {
+  background: rgba(28, 28, 28, 0.9019607843);
+}
+.index .brightness:hover {
+  background: rgba(28, 28, 28, 0.0039215686);
+}
+.index .brightness:hover .material-icons {
+  color: #62DB54 !important;
+}
+@media screen and (max-width: 767px) {
+  .index .lesson-border-sm {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 12px;
+  }
+}
+.index .lesson-border-md {
+  border-bottom: 3px solid #fff;
+  padding-bottom: 12px;
+}
+@media screen and (max-width: 767px) {
+  .index .lesson-border-md {
+    border-bottom: none;
+  }
+}
+.index .brightness:hover .lesson-border-md {
+  border-color: #62DB54;
+}
+.index .brightness:hover .lesson-border-sm {
+  border-color: #62DB54;
 }/*# sourceMappingURL=all.css.map */

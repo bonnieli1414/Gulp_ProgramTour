@@ -22,19 +22,81 @@
         transform: translateY(-50%);
         padding: 0 8px;
     }
-    .fs-50 {
-        font-size: 50px;
-    }
-    .text-md-start {
-        text-align: left;
-    }
-    .mb-500 {
-        padding-bottom: 500px;
-    }
     .btn-liner {
         width: 172px;
         height: 42px;
         background-image: linear-gradient(104deg, $success, $info);
     }
-    
+    .banner-1 {
+        background-image: url("../../../assets/images/info01.jpg");
+        @include banner;
+        height: 615px;
+        @include pad {
+            height: 430px;
+        }
+        @include mobile {
+            height: 263px;
+        }
+    }
+    .banner-2 {
+        background-image: url("../../../assets/images/info02.jpg");
+        @include banner;
+        height: 615px;
+        @include pad {
+            height: 430px;
+        }
+        @include mobile {
+            height: 263px;
+        }
+    }
+    .banner-3 {
+        background-image: url("../../../assets/images/info03.jpg");
+        @include banner;
+        height: 615px;
+        @include pad {
+            height: 430px;
+        }
+        @include mobile {
+            height: 263px;
+        }
+    }
+    .banner-4 {
+        background-image: url("../../../assets/images/info04.jpg");
+        @include banner;
+        height: 615px;
+        @include pad {
+            height: 430px;
+        }
+        @include mobile {
+            height: 263px;
+        }
+    }
+    .brightness {
+        background: #1c1c1ce6;
+    }
+    .brightness:hover {
+        background: #1c1c1c01;
+    }
+    .brightness:hover .material-icons {
+        color: $success!important;
+    }
+    .lesson-border-sm {
+        @include mobile {
+            border-bottom: 3px solid #fff;
+            padding-bottom: 12px;
+        }
+    }
+    .lesson-border-md {
+        border-bottom: 3px solid #fff;
+        padding-bottom: 12px;
+        @include mobile {
+            border-bottom: none;
+        }
+    }
+    .brightness:hover .lesson-border-md {
+        border-color: $success;
+    }
+    .brightness:hover .lesson-border-sm {
+        border-color: $success;
+    }
 }
