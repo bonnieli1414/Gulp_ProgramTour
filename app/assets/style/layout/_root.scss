@@ -151,13 +151,6 @@ h6 {
         font-weight: 400;
     }
 }
-.py-80 {
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-.pt-80 {
-    padding-top: 80px;
-}
 .border-md-bottom {
     border-bottom: 1px solid #000;
     @include mobile {
@@ -175,10 +168,10 @@ h6 {
 .rounded-bottom-24 {
     border-radius: 0 0 24px 24px;
 }
+.rounded-24 {
+    border-radius: 24px;
+}
 .text-md-start {
     text-align: left;
-}
-.mb-500 {
-    padding-bottom: 500px;
 }
 

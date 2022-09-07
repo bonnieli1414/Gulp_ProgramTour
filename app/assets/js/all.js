@@ -20,8 +20,8 @@ AOS.init({
   mirror: false, // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 });
-// swiper套件
-const swiper = new Swiper(".renderSwiper", {
+// swiper套件-你想要學習的 程式 ，都在這裡
+let swiper = new Swiper(".renderSwiper", {
   // 每個視圖的幻燈片數
   slidesPerView: "auto",
   // 移動幻燈片之間的距離
@@ -37,6 +37,28 @@ const swiper = new Swiper(".renderSwiper", {
   },
 });
 
+// swiper套件-專屬你的學習課程超過 3000 位學員得到了 程式超能力
+swiper = new Swiper('.shareSwiper', {
+  // 分頁   
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  // 左右箭頭    
+  navigation: {
+    nextEl: '.swiper-next',
+    prevEl: '.swiper-prev',
+  },
+  // 滾動條
+  // scrollbar: {
+  //   el: '.swiper-scrollbar',
+  //   draggable: true,
+  // },
+  // 淡入淡出
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  },
+});
 
 
 
