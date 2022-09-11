@@ -178,7 +178,6 @@
             border-radius: 24px;
         }
     }
-
     .info-box{
         height: 381px;
         margin-left: 510px;
@@ -210,10 +209,6 @@
         }
     }
     .swiper-btn {
-        
-        // position: absolute;
-        // bottom: 0;
-        // left: 60px;
         @include mobile {
             width: auto;
         }
