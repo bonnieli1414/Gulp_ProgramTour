@@ -18068,7 +18068,7 @@ h6, .h6 {
 }
 
 .index .banner {
-  background-image: url("../../images/bg_home.jpg");
+  background-image: url("../../../assets/images/bg_home.jpg");
   height: 680px;
   background-size: cover;
   background-position: center center;
@@ -18077,7 +18077,7 @@ h6, .h6 {
 
 @media screen and (max-width: 767px) {
   .index .banner {
-    background-image: url("../../../assets/images/bg_home_mobile.jpg");
+    background-image: url("../../images/bg_home_mobile.jpg");
   }
 }
 
@@ -18115,7 +18115,7 @@ h6, .h6 {
 }
 
 .index .banner-1 {
-  background-image: url("../../../assets/images/info01.jpg");
+  background-image: url("../../images/info01.jpg");
   height: 680px;
   background-size: cover;
   background-position: center center;
@@ -18136,7 +18136,7 @@ h6, .h6 {
 }
 
 .index .banner-2 {
-  background-image: url("../../../assets/images/info02.jpg");
+  background-image: url("../../images/info02.jpg");
   height: 680px;
   background-size: cover;
   background-position: center center;
@@ -18157,7 +18157,7 @@ h6, .h6 {
 }
 
 .index .banner-3 {
-  background-image: url("../../../assets/images/info03.jpg");
+  background-image: url("../../images/info03.jpg");
   height: 680px;
   background-size: cover;
   background-position: center center;
@@ -18178,7 +18178,7 @@ h6, .h6 {
 }
 
 .index .banner-4 {
-  background-image: url("../../../assets/images/info04.jpg");
+  background-image: url("../../images/info04.jpg");
   height: 680px;
   background-size: cover;
   background-position: center center;
@@ -18271,7 +18271,7 @@ h6, .h6 {
 }
 
 .index .banner-5 {
-  background-image: url("../../../assets/images/bg_share.jpg");
+  background-image: url("../../images/bg_share.jpg");
   height: 680px;
   background-size: cover;
   background-position: center center;
