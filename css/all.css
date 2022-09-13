@@ -15900,7 +15900,7 @@ h6, .h6 {
 }
 
 .index .banner {
-  background-image: url("../../../assets/images/article01.jpg");
+  background-image: url("../images/bg_home.jpg");
   height: 680px;
   background-size: cover;
   background-position: center center;
