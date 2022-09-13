@@ -1,6 +1,6 @@
 .index {
     .banner {
-        background-image: url("../../images/bg_home.jpg");
+        background-image: url("../../../assets/images/bg_home.jpg");
         @include banner;
         @include mobile {
             background-image: url("../../images/bg_home_mobile.jpg");
