@@ -1,6 +1,6 @@
 .index {
     .banner {
-        background-image: url("/app/assets/images/article01.jpg");
+        background-image: url("../../../assets/images/article01.jpg");
         @include banner;
         @include mobile {
             background-image: url("../../images/bg_home_mobile.jpg");
@@ -28,7 +28,7 @@
         background-image: linear-gradient(104deg, $success, $info);
     }
     .banner-1 {
-        background-image: url("../../images/info01.jpg");
+        background-image: url("../../../assets/images/info01.jpg");
         @include banner;
         height: 615px;
         @include pad {
